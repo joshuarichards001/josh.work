@@ -3,6 +3,8 @@ import { ArrowIcon, CVIcon, GitHubIcon, LinkedinIcon } from "./components/icons"
 import Image from "next/image";
 
 export default function Home() {
+  const linkStyles = "flex items-center gap-2 transition-all hover:text-neutral-700 dark:hover:text-neutral-200";
+
   return (
     <main className="flex">
       <div>
@@ -13,7 +15,7 @@ export default function Home() {
         <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
           <Image className="rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
           <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-            <Link href="/cv.pdf" className="flex items-center gap-2">
+            <Link href="/cv.pdf" className={linkStyles}>
               <CVIcon />
               {`CV / Resume`}
             </Link>
@@ -21,7 +23,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/joshuarichards001"
-              className="flex items-center gap-2"
+              className={linkStyles}
             >
               <GitHubIcon />
               {`GitHub Profile`}
@@ -30,7 +32,7 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/joshua-stewart-richards/"
-              className="flex items-center gap-2"
+              className={linkStyles}
             >
               <LinkedinIcon />
               {`Linkedin Profile`}
@@ -45,7 +47,7 @@ export default function Home() {
         <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
           <li>
             <a
-              className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+              className={linkStyles}
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:joshuarichards001@gmail.com"
@@ -56,7 +58,7 @@ export default function Home() {
           </li>
           <li>
             <a
-              className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+              className={linkStyles}
               rel="noopener noreferrer"
               target="_blank"
               href="https://twitter.com/joshrichardsdev"
