@@ -13,7 +13,7 @@ export default function Home() {
           Hey, I'm Josh. I'm a <b>Software Engineer at Xero</b> where I help modernise the Invoicing Platform
         </p>
         <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
-          <Image className="rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
+          <Image className="grayscale rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
           <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
             <Link href="/cv.pdf" className={linkStyles}>
               <CVIcon />
