@@ -8,9 +8,9 @@ export const metadata: Metadata = {
     default: "Josh Richards",
     template: "%s | Josh Richards",
   },
-  description: "Developer, writer, and creator.",
+  description: "Software Engineer at Xero",
   icons: {
-    shortcut: "/favicon.ico",
+    shortcut: "/favicon.png",
   },
 };
 

@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
           <Image className="rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
           <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-            <Link href="/jr-cv.pdf" className="flex items-center gap-2">
+            <Link href="/cv.pdf" className="flex items-center gap-2">
               <CVIcon />
               {`CV / Resume`}
             </Link>
