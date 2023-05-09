@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import React from "react";
-import { ArrowIcon } from "../components/icons";
+import TitleComponent from "../components/title";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -8,20 +8,6 @@ export const metadata: Metadata = {
 };
 
 export default function WorkPage() {
-  const TitleComponent = ({ title, link }: { title: string; link: string }) => {
-    return (
-      <a
-        className="flex items-center text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-        rel="noopener noreferrer"
-        target="_blank"
-        href={link}
-      >
-        <ArrowIcon />
-        <p className="font-bold text-xl font-serif m-0">{title}</p>
-      </a>
-    );
-  };
-
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif mb-10">Work</h1>
