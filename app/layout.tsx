@@ -1,16 +1,17 @@
 import { Metadata } from "next";
 import Sidebar from "./components/sidebar";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: {
-    default: 'Josh Richards',
-    template: '%s | Josh Richards',
+    default: "Josh Richards",
+    template: "%s | Josh Richards",
   },
-  description: 'Developer, writer, and creator.',
+  description: "Developer, writer, and creator.",
   icons: {
-    shortcut: '/favicon.ico',
-  }
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Sidebar />
         <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
