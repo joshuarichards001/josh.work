@@ -42,16 +42,6 @@ export default function page() {
           all of the albums they plan to listen to in the future. It is built using React, Typescript, Tailwind for the
           frontend, and Firebase to host the backend/database.
         </p>
-        <hr />
-        <TitleComponent title="Financial Freedom" link="https://financial-freedom.netlify.app/" />
-        <p>
-          Financial Freedom is a full stack budgeting application to help users manage their transactions. It is built
-          using React, Typescript and CSS for the frontend (deployed using Netlify) and Python, Django and SQLite for
-          the backend (deployed using Heroku). It has a number of functions including adding and deleting users
-          transactions, visualisation of transactions through pie charts, creating a budget based on how the user wants
-          to spend their money, Hot swapping the pages columns so that the user can decide what they want to see,
-          registering users through email and finally registering users using their Google account.
-        </p>
       </div>
     </section>
   );
