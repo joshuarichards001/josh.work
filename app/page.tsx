@@ -68,10 +68,10 @@ export default function Home() {
               className={linkStyles}
               rel="noopener noreferrer"
               target="_blank"
-              href="mailto:joshuarichards001@gmail.com"
+              href="mailto:hello@josh.work"
             >
               <ArrowIcon />
-              <p className="h-7">contact me on email</p>
+              <p className="h-7">hello@josh.work</p>
             </a>
           </li>
           {/* <li>
