@@ -22,10 +22,14 @@ export default function Home() {
         <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
           <Image className="transition ease-linear rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
           <div className={"mt-8 md:mt-0 ml-0 md:ml-6 space-y-2"}>
-            <Link href="/cv.pdf" className={linkStyles}>
+            <a
+              rel="noopener noreferrer"
+              href="/cv.pdf"
+              className={linkStyles}
+            >
               <CVIcon />
               {`CV / Resume`}
-            </Link>
+            </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
