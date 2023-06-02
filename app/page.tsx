@@ -24,6 +24,7 @@ export default function Home() {
           <div className={"mt-8 md:mt-0 ml-0 md:ml-6 space-y-2"}>
             <a
               rel="noopener noreferrer"
+              target="_blank"
               href="/cv.pdf"
               className={linkStyles}
             >
