@@ -22,12 +22,15 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
   }
 
   return (
-    <div>
-      <h1 className="font-bold text-3xl font-serif max-w-[650px]">{blog.title}</h1>
-      <article>
+    <section>
+      <h1 className="font-bold text-3xl font-serif max-w-[300px]">{blog.title}</h1>
+      <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 text-sm">
+        {new Date(blog.date).toDateString()}
+      </div>
+      <article className="prose prose-quoteless prose-neutral dark:prose-invert">
         <MDXContent />
       </article>
-    </div>
+    </section>
   );
 };
 
