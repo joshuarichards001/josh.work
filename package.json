@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.4.1",
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.14",
+    "contentlayer": "^0.3.3",
     "next": "13.3.2",
+    "next-contentlayer": "^0.3.3",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
