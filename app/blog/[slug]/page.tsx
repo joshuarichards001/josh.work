@@ -23,8 +23,8 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
 
   return (
     <section>
-      <h1 className="font-bold text-3xl font-serif">{blog.title}</h1>
-      <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 text-sm">
+      <h1 className="font-bold text-3xl font-serif mb-3">{blog.title}</h1>
+      <div className="w-fit bg-neutral-200 dark:bg-neutral-800 rounded-md px-2 py-1 text-sm">
         {new Date(blog.date).toLocaleDateString()}
       </div>
       <article className="prose prose-quoteless prose-neutral dark:prose-invert">

@@ -3,19 +3,19 @@ title: "Using Firebase Auth in Insomnia"
 date: 2022-02-11
 ---
 
-![](https://miro.medium.com/v2/resize:fit:500/1*D1Vdu6pl-Vs99-5nuOAjCw.png)
+![img](https://miro.medium.com/v2/resize:fit:500/1*D1Vdu6pl-Vs99-5nuOAjCw.png)
 
-# Step 1:
+## Step 1
 
 Create a POST request within insomnia using the following URL (API_KEY can be found in Firebase -> Project Settings, as “Web API Key”).
 
-```
+```text
 https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
 ```
 
 With the following JSON body:
 
-```
+```json
 {
   "email": "[<](mailto:joshuarichards001@gmail.com)email>",
   "password": "<password>",
@@ -25,7 +25,7 @@ With the following JSON body:
 
 Hit send to test that it works and you should get a response looking something like this:
 
-```
+```json
 {
   "localId": "ZY1rJK0eYLg...",
   "email": "[user@example.com]",
@@ -37,36 +37,36 @@ Hit send to test that it works and you should get a response looking something l
 }
 ```
 
-# Step 2:
+## Step 2
 
 Next, open up the “Manage Environments” tab in the top left corner under the Insomnia icon (or using ⌘ + E).
 
 Once inside create a field called TOKEN and when inputting its value type Ctrl + Space and navigate to the “Response -> Body Attribute” option.
 
-![](https://miro.medium.com/v2/resize:fit:700/1*QMv3M7jbn4FtEAQDlE9Z2Q.png)
+![img](https://miro.medium.com/v2/resize:fit:700/1*QMv3M7jbn4FtEAQDlE9Z2Q.png)
 
 Select this option and then click on it again to edit the Tag.
 
-![](https://miro.medium.com/v2/resize:fit:411/1*_Qg3rfnl9lwxkyMeJnkAbQ.png)
+![img](https://miro.medium.com/v2/resize:fit:411/1*_Qg3rfnl9lwxkyMeJnkAbQ.png)
 
 Within the tag editor you want to:
 
-1.  Select the API Request you created from the start of the guide (e.g. POST Auth).
-2.  **Filter**: set to “$.idToken”
-3.  **Trigger Behavior**: set to to “When Expired”
-4.  **Max age**: set to “3600” (Because that's how long the Token lasts)
+1. Select the API Request you created from the start of the guide (e.g. POST Auth).
+2. **Filter**: set to “$.idToken”
+3. **Trigger Behavior**: set to to “When Expired”
+4. **Max age**: set to “3600” (Because that's how long the Token lasts)
 
 It should look like this. If done correctly the token should be displayed in the “Live Preview” section.
 
-![](https://miro.medium.com/v2/resize:fit:700/1*CaIwKmklqZrmWF1hFeU_7g.png)
+![img](https://miro.medium.com/v2/resize:fit:700/1*CaIwKmklqZrmWF1hFeU_7g.png)
 
-# Step 3:
+## Step 3
 
 Finally, you need to navigate to the API call you want to attach the Authentication to. Once there click on the “Auth” tab and select the “Bearer Token” option.
 
 Under the TOKEN field once again type “Ctrl + Space” and select the “TOKEN” variable we just created.
 
-![](https://miro.medium.com/v2/resize:fit:446/1*7uZKwQjWrro-3ygAYnG-TQ.png)
+![img](https://miro.medium.com/v2/resize:fit:446/1*7uZKwQjWrro-3ygAYnG-TQ.png)
 
 Once selected click send and it should all work as intended! You are now able to access your Firebase Auth protected server from the Insomnia API Client.
 

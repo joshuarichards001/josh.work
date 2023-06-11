@@ -24,7 +24,7 @@ export default function WorkPage() {
           platform for small businesses.
         </p>
         <hr />
-        <TitleComponent title="Hedges (2021 - 2022)" link="https://hedges.app/" />
+        <TitleComponent title="Hedges (2021 - 2022)" link="/blog/hedges" newTab={false} />
         <p>
           Hedges is a portfolio management application built out of the popularity of my personal project Ticker
           Tracker. After amassing over 650 users within a week with an overwhelming amount of positive feedback
