@@ -9,11 +9,11 @@ During my final year at university, I was diving deeper into investing and the o
 
 ## Ticker Tracker
 
-Ticker Tracker was the solution I had been looking for. A platform where you could view all of your assets together to see a snapshot of how they performed. I shared the platform with several subreddits ([PersonalFinanceNZ](https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/), [fiaustralia](https://www.reddit.com/r/fiaustralia/comments/njoox7/tracking_your_whole_portfolio_made_easier/), [ausstocks](https://www.reddit.com/r/ausstocks/comments/njopbp/tracking_your_whole_portfolio_made_easier/)) and got really positive feedback! I resolved a bunch of feature requests and bugs from the comments as they came up.
+Ticker Tracker was the solution I had been looking for. A platform where you could view all of your assets together to see a snapshot of how they performed. I shared the platform with several subreddit's ([PersonalFinanceNZ](https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/), [fiaustralia](https://www.reddit.com/r/fiaustralia/comments/njoox7/tracking_your_whole_portfolio_made_easier/), [ausstocks](https://www.reddit.com/r/ausstocks/comments/njopbp/tracking_your_whole_portfolio_made_easier/)) and got really positive feedback! I resolved a bunch of feature requests and bugs from the comments as they came up.
 
 ![img](../images/hedges/tickertracker.png)
 
-- The Managing Director of [BusinessDesk](https://businessdesk.co.nz/) reached out for a potential collaboration
+- The Managing Director of a leading financial news website reached out for a potential collaboration
 - [Hatch Invest](https://www.hatchinvest.nz/) reached out in a [comment](https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/comment/gz7fhts/?utm_source=share&utm_medium=web2x&context=3) stating the project was shared around the office and the team thought it was 'very cool'.
 - A number of software engineers reached out, offering their assistance in developing the platform.
 
@@ -39,7 +39,7 @@ As always, it was a multi-faceted problem with several contributing factors. A f
 
 ### Scope Creep
 
-One of the primary reasons for the project's downfall was scope creep. As you may have seen earlier in the post, we had been working on this platform for 6 months without releasing anything to users. The scope of the MVP was just too big!
+One of the primary reasons for the project's downfall was scope creep. As you may have noticed earlier in the post, we had been working on this platform for 6 months without releasing anything to users. The scope of the MVP was just too big!
 
 The initial plan was to build a fully functional portfolio tracker with Shares, ETFs, Crypto, Property, Cash, and Custom assets. Shares, ETFs and Crypto would all have live price, historical, and fundamental data. All of these assets would be accounted for in a graph that showcased the historical value of your portfolio. There would also be multiple portfolios with custom ordering and sorting. The complexity was insane.
 
@@ -49,17 +49,17 @@ Bugs were coming up left and right and development really slowed towards the tai
 
 ### Perceived Inequity in Workload
 
-As I outlined in the scope creep section the project got very complicated and time-consuming. Another point to note is that once the design work was done and the business plan was laid out it didn't seem like there was much work for my business partner to do. This led to the weekly meeting consisting of me talking about all the work I was doing and my partner talking about areas of the app that needed to be improved.
+As I outlined in the scope creep section the project got very complicated and time-consuming. Another point to note is that once the design work was done and the business plan was laid out it didn't seem like there was much work for my business partner to do. This led to the weekly meeting consisting of me talking about the work I was doing and my partner talking about areas of the app that needed to be improved.
 
-The equity was 50/50 but I felt like our contributions weren't matching that. This made pretty apathetic by the end.
+The equity was 50/50 but I felt like our contributions weren't matching that.
 
 **What we should have done**: Got users involved earlier which would create more non-technical work.
 
 ### Financial Data Headaches
 
-All of the data that was required for the platform was going to cost hundreds of thousands of dollars a year. The licensing for NZX/ASX Stock and ETF data was going to be over $100k alone. On top of this we would require another broker to get data in API form which would run thousands more.
+All of the data that was required for the platform was going to cost hundreds of thousands of dollars a year. The licensing for NZX/ASX Stock and ETF data was going to be over $100k alone. On top of this we would require another broker to actually get the data, costing tens of thousands more.
 
-I can now see why it's pretty much just ShareSight and Yahoo. The barrier to entry is too high.
+I can now see why the only players are ShareSight and Yahoo. The barrier to entry is too high.
 
 **What we should have done**: The only way we could have solved this problem was to take the project extremely seriously and go for venture funding. No Indie Hacking allowed on this one.
 
