@@ -1,3 +1,5 @@
+import { ArrowIcon } from "@/app/components/icons";
+import { linkStyles } from "@/app/constants";
 import { allBlogs } from "contentlayer/generated";
 import { getMDXComponent } from "next-contentlayer/hooks";
 
@@ -29,6 +31,10 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
       </div>
       <article className="prose prose-quoteless prose-neutral dark:prose-invert">
         <MDXContent />
+        <a className={linkStyles} rel="noopener noreferrer" target="_blank" href="mailto:hello@josh.work">
+          <ArrowIcon />
+          <p className="h-7">hello@josh.work</p>
+        </a>
       </article>
     </section>
   );
