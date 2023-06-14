@@ -1,6 +1,6 @@
 ---
 title: "Hedges: A Startup Retrospective"
-date: 2023-06-09
+date: 2023-06-14
 ---
 
 ## Introduction
