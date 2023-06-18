@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowIcon, CVIcon, GitHubIcon, LinkedinIcon } from "./components/icons";
 import Image from "next/image";
 import { inlineLinkStyles, linkStyles } from "./constants";
@@ -25,7 +24,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="/cv.pdf"
+              href="/josh-richards-cv.pdf"
               className={linkStyles}
             >
               <CVIcon />
