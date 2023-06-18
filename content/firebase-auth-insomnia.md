@@ -3,7 +3,7 @@ title: "Using Firebase Auth in Insomnia"
 date: 2022-02-11
 ---
 
-![img](https://miro.medium.com/v2/resize:fit:500/1*D1Vdu6pl-Vs99-5nuOAjCw.png)
+![img](../images/firebase-auth-insomnia/insomnia.png)
 
 ## Step 1
 
@@ -43,11 +43,11 @@ Next, open up the “Manage Environments” tab in the top left corner under the
 
 Once inside create a field called TOKEN and when inputting its value type Ctrl + Space and navigate to the “Response -> Body Attribute” option.
 
-![img](https://miro.medium.com/v2/resize:fit:700/1*QMv3M7jbn4FtEAQDlE9Z2Q.png)
+![img](../images/firebase-auth-insomnia/environment.png)
 
 Select this option and then click on it again to edit the Tag.
 
-![img](https://miro.medium.com/v2/resize:fit:411/1*_Qg3rfnl9lwxkyMeJnkAbQ.png)
+![img](../images/firebase-auth-insomnia/token.png)
 
 Within the tag editor you want to:
 
@@ -58,7 +58,7 @@ Within the tag editor you want to:
 
 It should look like this. If done correctly the token should be displayed in the “Live Preview” section.
 
-![img](https://miro.medium.com/v2/resize:fit:700/1*CaIwKmklqZrmWF1hFeU_7g.png)
+![img](../images/firebase-auth-insomnia/tag.png)
 
 ## Step 3
 
@@ -66,7 +66,7 @@ Finally, you need to navigate to the API call you want to attach the Authenticat
 
 Under the TOKEN field once again type “Ctrl + Space” and select the “TOKEN” variable we just created.
 
-![img](https://miro.medium.com/v2/resize:fit:446/1*7uZKwQjWrro-3ygAYnG-TQ.png)
+![img](../images/firebase-auth-insomnia/url.png)
 
 Once selected click send and it should all work as intended! You are now able to access your Firebase Auth protected server from the Insomnia API Client.
 
