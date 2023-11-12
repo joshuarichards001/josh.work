@@ -30,7 +30,7 @@ export default function page() {
           link="https://www.reddit.com/r/indie/comments/10x9v4g/i_built_a_website_to_keep_track_of_all_the_albums/"
         />
         <p>
-          Album Listen List is a full-stack application that has over 250 users total with roughly 40 monthly active users. 
+          Album Listen List is a full-stack application that has over 250 users and roughly 40 monthly active users. 
           It is a place where users can aggregate all of the albums they plan to listen to in the future. It is built using 
           React, Typescript, Tailwind for the frontend, and Firebase to host the backend/database.
         </p>
