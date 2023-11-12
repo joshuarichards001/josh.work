@@ -3,8 +3,6 @@ title: "Hedges: A Startup Retrospective"
 date: 2023-06-14
 ---
 
-## Introduction
-
 During my final year at university, I was diving deeper into investing and the online community surrounding it. It was a time when people had assets in all sorts of different places: stocks, ETFs, crypto, property, and more. I was dabbling in a few of these assets and found it annoying to switch between the different investment platforms to see how my portfolio was performing. After doing some research, I found the only places to solve this problem in New Zealand were [Sharesight](https://www.sharesight.com/) (which started at $20/month) and [Yahoo Finance](https://nz.finance.yahoo.com/portfolios/) (which had a clunky and confusing user interface). After seeing this, I decided to start working on a solution.
 
 ## Ticker Tracker
