@@ -8,12 +8,16 @@ export const generateStaticParams = async () => {
 };
 
 export const generateMetadata = ({ params }: any) => {
-  const blog = allBlogs.find((blog: any) => blog._raw.flattenedPath === params.slug);
+  const blog = allBlogs.find(
+    (blog: any) => blog._raw.flattenedPath === params.slug,
+  );
   return { title: blog?.title };
 };
 
 const BlogLayout = ({ params }: { params: { slug: string } }) => {
-  const blog = allBlogs.find((blog: any) => blog._raw.flattenedPath === params.slug);
+  const blog = allBlogs.find(
+    (blog: any) => blog._raw.flattenedPath === params.slug,
+  );
 
   let MDXContent;
 
@@ -31,7 +35,12 @@ const BlogLayout = ({ params }: { params: { slug: string } }) => {
       </div>
       <article className="prose prose-quoteless prose-neutral dark:prose-invert">
         <MDXContent />
-        <a className={linkStyles} rel="noopener noreferrer" target="_blank" href="mailto:hello@josh.work">
+        <a
+          className={linkStyles}
+          rel="noopener noreferrer"
+          target="_blank"
+          href="mailto:hello@josh.work"
+        >
           <ArrowIcon />
           <p className="h-7">hello@josh.work</p>
         </a>

@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 
 const navItems = {
   "/": {
@@ -24,8 +23,8 @@ const navItems = {
 
 export default function Sidebar() {
   let pathname = usePathname() || "/";
-  if (pathname.includes('/blog/')) {
-    pathname = '/blog';
+  if (pathname.includes("/blog/")) {
+    pathname = "/blog";
   }
 
   return (

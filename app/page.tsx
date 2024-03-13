@@ -1,5 +1,10 @@
-import { ArrowIcon, CVIcon, GitHubIcon, LinkedinIcon } from "./components/icons";
 import Image from "next/image";
+import {
+  ArrowIcon,
+  CVIcon,
+  GitHubIcon,
+  LinkedinIcon,
+} from "./components/icons";
 import { inlineLinkStyles, linkStyles } from "./constants";
 
 export default function Home() {
@@ -19,7 +24,13 @@ export default function Home() {
           to solve everyday problems.
         </p>
         <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
-          <Image className="transition ease-linear rounded-full" src="/avatar.jpeg" width="100" height="100" alt="me" />
+          <Image
+            className="transition ease-linear rounded-full"
+            src="/avatar.jpeg"
+            width="100"
+            height="100"
+            alt="me"
+          />
           <div className={"mt-8 md:mt-0 ml-0 md:ml-6 space-y-2"}>
             <a
               rel="noopener noreferrer"
@@ -55,16 +66,18 @@ export default function Home() {
           <a className={inlineLinkStyles} href="/work">
             Xero
           </a>{" "}
-          I am a part of the team building a modernised invoicing experience for hundreds of thousands of small
-          businesses a month. I work along the full stack using React, C#, and AWS.
+          I am a part of the team building a modernised invoicing experience for
+          hundreds of thousands of small businesses a month. I work along the
+          full stack using React, C#, and AWS.
         </p>
         <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
           In addition to my work at Xero, I enjoy working on{" "}
           <a className={inlineLinkStyles} href="/projects">
             personal projects
           </a>{" "}
-          that solve everyday problems. It's always exciting to share my projects with others and gain their interest
-          through forums like Reddit and ProductHunt.
+          that solve everyday problems. It's always exciting to share my
+          projects with others and gain their interest through forums like
+          Reddit and ProductHunt.
         </p>
         <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-orange-800 dark:text-orange-300">
           <li>

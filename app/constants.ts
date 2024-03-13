@@ -1,4 +1,5 @@
-export const linkColors = "transition ease-linear text-orange-700 dark:text-orange-300 hover:text-orange-900 dark:hover:text-orange-400";
+export const linkColors =
+  "transition ease-linear text-orange-700 dark:text-orange-300 hover:text-orange-900 dark:hover:text-orange-400";
 
 export const linkStyles = "flex items-center gap-2 " + linkColors;
 export const inlineLinkStyles =
