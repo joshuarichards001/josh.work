@@ -42,10 +42,9 @@ export default function page() {
           link="https://www.pianotheory.app/"
         />
         <p>
-          Piano Theory is a full-stack web app where users can learn how to play
+          Piano Theory is a frontend web app where users can learn how to play
           various chords and scales using a virtual piano. It is built using
-          React, Typescript, Tailwind for the frontend, and Firebase to host the
-          backend/database.
+          React, Typescript, Tailwind, and Redux Toolkit.
         </p>
       </div>
     </section>
