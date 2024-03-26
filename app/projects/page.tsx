@@ -13,7 +13,7 @@ export default function page() {
       <div className="prose prose-neutral dark:prose-invert">
         <TitleComponent
           title="Ticker Tracker"
-          link="https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/"
+          link="https://www.reddit.com/r/PersonalFinanceNZ/s/jXmFKYrZqw"
         />
         <p>
           Ticker Tracker is a full-stack portfolio tracking application that has
@@ -26,7 +26,7 @@ export default function page() {
         <hr />
         <TitleComponent
           title="Album Listen List"
-          link="https://www.reddit.com/r/truespotify/comments/18omr84/i_built_a_website_to_keep_track_of_all_the_albums/"
+          link="https://www.reddit.com/r/truespotify/s/Gczl65OmwA"
         />
         <p>
           Album Listen List is a full-stack web application that has over 450
@@ -39,7 +39,7 @@ export default function page() {
         <hr />
         <TitleComponent
           title="Piano Theory"
-          link="https://www.pianotheory.app/"
+          link="https://www.reddit.com/r/musictheory/s/1l0SvYECmw"
         />
         <p>
           Piano Theory is a frontend web app with over 500 unique visitor. It's
