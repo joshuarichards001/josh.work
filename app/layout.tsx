@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import Sidebar from "./components/sidebar";
 import "./globals.css";
@@ -28,8 +27,12 @@ export default function RootLayout({
         <Sidebar />
         <main className="flex flex-col min-w-0 mt-6 md:mt-0 px-2 md:px-0">
           {children}
-          <Analytics />
         </main>
+        <script
+          defer
+          data-domain="josh.work"
+          src="https://plausible.io/js/script.js"
+        />
       </body>
     </html>
   );
